@@ -27,8 +27,8 @@ throw new Error('Method not implemented.');
   title = 'tp2';
 selectedLanguage: any;
   constructor(private translateService: TranslateService) {
-    this.translateService.setDefaultLang('en'); // Définit la langue par défaut
-    this.translateService.use('en'); // Utilise la langue spécifiée
+    this.translateService.setDefaultLang('en'); 
+    this.translateService.use('en');
   }
 
   toggleGestionUtilisateurs() {
