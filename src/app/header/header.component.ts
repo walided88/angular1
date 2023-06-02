@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  selectedLanguage: string = 'en'; // Langue par défaut
+  selectedLanguage: string = 'en'; 
 
   constructor(private translateService: TranslateService) {}
   changeLanguage(selectedLanguage: string) {
