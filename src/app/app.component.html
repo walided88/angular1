@@ -1,0 +1,15 @@
+
+<div class="vertical-container">
+  <div class="vertical-menu">
+    <ul>
+      <li><a href="#" class="menu-link">{{ 'Home' | translate }}</a></li>
+      <li><a routerLink="/gestion-utilisateurs" class="menu-link">{{ 'Users Management' | translate }}</a></li>
+     </ul>
+  </div>
+
+  
+
+  <div class="vertical-content">
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+  </div>

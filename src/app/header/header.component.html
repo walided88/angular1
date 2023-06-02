@@ -1,0 +1,10 @@
+<div class="horizontal-container">
+  <div class="header">
+    <h1 class="title">{{'Angular Training' | translate }}</h1>
+    <div class="header2">
+    <select [(ngModel)]="selectedLanguage" (change)="changeLanguage(selectedLanguage)">
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+    </select>
+  </div>
+</div>
